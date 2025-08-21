@@ -35,7 +35,7 @@ a {
     color: #fff;
     border-radius: 25px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.4rem;
 }
 
@@ -269,4 +269,139 @@ a {
     font-size: 4.4rem;
     font-weight: 600;
     color: #171100;
+}
+
+/* ========== Courses ========== */
+
+.courses {
+    padding: 200px 0;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .info {
+    width: 458px;
+}
+
+.courses .sub-title {
+    font-size: 3.8rem;
+    font-weight: 600;
+    font-family: 'Sen';
+    letter-spacing: -0.02em;
+}
+
+.courses .info .desc {
+    font-size: 1.8rem;
+    line-height: 1.68;
+    color: #5F5B53;
+    margin-top: 16px;
+}
+
+.courses .arrows {
+    display: flex;
+    align-items: center;
+}
+
+.courses .prev-arrow,
+.courses .next-arrow {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.courses .prev-arrow:hover,
+.courses .next-arrow:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.courses .prev-arrow {
+    background: #fff;
+    border: 1px solid #FFB900;
+}
+
+.courses .next-arrow {
+    margin-left: 18px;
+    background: #FFB900;
+}
+
+.courses .item {
+    flex: 1;
+}
+
+.courses .thumb {
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.courses .list {
+    margin-top: 55px;
+    gap: 30px;
+}
+
+.courses .item {
+    border-radius: 12px;
+    border: 1px solid #E2DFDA;
+}
+
+.courses .body {
+    padding: 16px 22px 22px;
+}
+
+.courses .sub-row {
+    display: flex;
+    align-items: center;
+}
+
+.courses .sub-row .title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.75;
+    margin-right: auto;
+}
+
+.courses .star {
+    width: 18px;
+    height: 18px;
+}
+
+.courses .value {
+    font-size: 16px;
+    color: #FEA31B;
+    margin-left: 6px;
+}
+
+.courses .list .desc {
+    font-size: 1.6rem;
+    line-height: 1.86;
+    color: #5F5B53;
+    margin-top: 6px;
+}
+
+.courses .body .sub-row:last-child {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .price {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.68;
+    color: #171100;
+}
+
+.courses .body .btn {
+    line-height: 1.86;
+    padding: 12px 24px;
+    border: 35px;
 }
