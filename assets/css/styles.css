@@ -405,3 +405,80 @@ a {
     padding: 12px 24px;
     border: 35px;
 }
+
+/* ========== Reviews ========== */
+
+.reviews {
+    background: #2E2100;
+    padding: 93px 0;
+}
+
+.reviews .content {
+    display: flex;
+}
+
+.reviews .avatar-block {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: auto;
+}
+
+.reviews .avatar {
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .username {
+    font-family: 'Sen';
+    margin-top: 18px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.42;
+    color: #F7F7F7;
+}
+
+.reviews .desc {
+    margin-top: 4px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB2;
+}
+
+.avatar-block .dots {
+    display: flex;
+    margin-top: 28px;
+}
+
+.avatar-block .dot {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.avatar-block .middle-dot {
+    background: #FFB900;
+}
+
+.reviews .review {
+    margin-left: 240px;
+
+}
+
+.reviews .quote {
+    display: inline-block;
+}
+
+.reviews .review-detail {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.54;
+    font-style: italic;
+    color: #fff;
+    margin-left: 30px;
+}
